@@ -9,15 +9,13 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [
-    "onCommand:extension.keepLines"
-  ],
+  "activationEvents": [],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "keeplines.helloWorld",
-        "title": "Hello World"
+        "command": "extension.keepLines",
+        "title": "keepLines"
       }
     ]
   },
